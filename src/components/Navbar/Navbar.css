@@ -1,0 +1,147 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 17vh;
+   /* background:#fb779a;*/
+    padding-left: 80px;
+    color: black;
+          
+    margin: 0px;
+    
+    transition: all 0.5s;
+  }
+  
+  .navbar-brand{
+    display:flex;
+    align-items: center;
+    
+     
+  }
+
+  .navbar-brand img{
+    
+    height: 100%;
+    width: 200px ;
+    margin-top: 0rem;
+    transition: transform 250ms;
+   
+      }
+
+ 
+  .navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 200px;
+    
+  }
+  
+  .navbar ul li {
+    margin: 0 1rem;
+  }
+  
+  .navbar ul li a {
+    text-decoration:none;
+    display:flex;
+    color: black;
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-between;
+    font-size: 19px;
+    font-weight: 400px;
+    white-space: nowrap;
+    transition: 0.3s;
+    padding: 5px 10px;
+
+  }
+  
+  .navbar ul li a:hover {
+    color: #cc1c4a;
+    font-weight:bolder;
+  }
+
+  
+  .navbar ul li a::after {
+    content: "";
+    position: absolute;
+    height: 0.2rem;
+    width: 0;
+    left: 0;
+    top: 2rem;
+    background: #cc1c4a;
+    transition: 0.3s linear;
+    
+  }
+  
+  .navbar ul li a:hover::after {
+    width: 100%;
+  }
+  
+  .navbar ul li a.clicked::after {
+    width: 100%;
+  }
+  
+  
+  
+  .toggle-button {
+    display: none;
+    font-size: 1.8rem;
+  }
+  
+  @media screen and (max-width: 600px) {
+    nav {
+      padding: 0 1rem;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .toggle-button {
+      display:block;
+      padding-bottom: 20px;
+    }
+  
+  
+  ul {
+  flex-direction: column;
+  position: fixed;
+  top: 26vh;
+  background: black;
+  
+  width:100%;
+  height: 100%;
+  left: -1000px;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 200px;
+  z-index: 1;
+    
+  }
+  
+  ul li  {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    
+  }
+  
+  .navbar ul li a {
+    color: white;
+    
+  }
+  
+   .navbar ul li a:hover {
+     color: white;
+    font-weight: bold;
+  }
+  
+  ul.active {
+    left: 0;
+  }
+  
+  
+  
+  
+  }

@@ -1,0 +1,60 @@
+.services 
+{
+    margin-top: 21rem;
+    margin-bottom: 2rem;
+}
+
+.services .icon-box {
+    text-align: left;
+    
+    padding: 50px 25px;
+    border-color: #cc1c4a;
+    border-style: dashed;
+    
+  box-shadow: 5px 5px 15px 5px rgba(253, 202, 202, 0.22), -5px -5px 30px 7px rgba(253, 202, 202, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+  
+ 
+    
+  }
+  
+    
+  .services .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color:#cc1c4a;
+  }
+  
+  .icon-box a {
+    color: #cc1c4a;
+    
+    
+  }
+  
+  .services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  
+  .services .icon-box:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 1px 1px 1px 1px rgba(253, 202, 202, 0.22), 
+      -5px -5px 30px 15px rgba(253, 202, 202, 0.22);
+  }
+  
+  .services .icon-box:hover .icon {
+    background: #fff;
+  }
+  
+  .services .icon-box:hover .icon i {
+    color: #1977cc;
+  }
+  
+  .services .icon-box:hover .icon::before {
+    background: #3291e6;
+  }
+  
+ 
