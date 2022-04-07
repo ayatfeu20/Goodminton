@@ -1,6 +1,6 @@
 .om h2{
     color: #cc1c4a;
-    margin-top: 25px;
+    margin-top: 40px;
     align-content: center;
     justify-content: center;
     
@@ -40,11 +40,13 @@
     
     color: black;
     margin-bottom: 15px;
+    text-align: start;
     
   }
   
   .resurs .icon-box {
     margin-top: 20px;
+    
     
   }
   
@@ -55,7 +57,7 @@
     justify-content: center;
     width: 60px;
     height: 60px;
-    
+    margin-right: 1rem;
     border-radius: 50px;
     transition: 0.5s;
     background-color: #cc1c4a;
@@ -83,20 +85,9 @@
     font-size: 18px;
   }
   
-  .resurs .icon-box .title a {
-    color: #070755;
-    transition: 0.3s;
-  }
   
-  .resurs .icon-box .title a:hover {
-    color: #070755;
-  }
   
-  .about .icon-box .description {
-    margin-left: 85px;
-    line-height: 24px;
-    font-size: 14px;
-  }
+  
   
   
   @-webkit-keyframes pulsate-btn {

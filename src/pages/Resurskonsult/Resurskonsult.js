@@ -26,12 +26,12 @@ Tekniskt sett ska resurserna ha eget driv för fortbildning. Vi kan även tillf�
   <div class="row">
   
   <div class=" col-lg-12 icon-boxes d-flex flex-column align-items-stretch
-   justify-content-center py-5 px-lg-5">
+   justify-content-center py-5 px-lg-4">
           
           <div class="icon-box">
             <div class="icon"><FaRegHandshake className='d-flex' size='50'/></div>
             <h2 class="title">Roller</h2>
-            <p class="description">Våra roller kan innefatta arbete inom systemutveckling, databasutveckling, arkitektur, test, samt projektledning och verksamhetsutveckling. Se även våra specialistkompetenser under fliken Specialistkunskaper ovan. 
+            <p class="description">Våra roller kan innefatta arbete inom systemutveckling, databasutveckling, arkitektur, test, samt projektledning och verksamhetsutveckling.<br></br>Se även våra specialistkompetenser under fliken Specialistkunskaper ovan. 
 
 Den längre versionen kan vi ta över en kopp kaffe! </p>
           </div>

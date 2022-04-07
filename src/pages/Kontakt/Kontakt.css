@@ -1,0 +1,206 @@
+.oss h2{
+    color: #cc1c4a;
+    margin-top: 40px;
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+
+.kontakt .background{
+    opacity: 75%;
+}
+
+.background h2{
+  color:#fff;
+  margin-left: 2rem;
+  margin-top: 20px;
+  font-size: bolder;
+  font-style: italic;
+  
+}
+
+.kontakt .icon-boxes h2 {
+    font-size: 50px;
+    color: #cc1c4a;
+    margin-bottom: 15px;
+    text-align: left;
+    
+  }
+  
+  
+  .kontakt.icon-box {
+    margin-top: 20px;
+    
+  }
+  
+  .kontakt .icon-box .icon {
+    float:inline-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    
+    border-radius: 50px;
+    transition: 0.5s;
+    background-color: #cc1c4a;
+  }
+  
+ 
+  
+  .kontakt .icon-box:hover .icon {
+    background: #cc1c4a;
+    border-color: #cc1c4a;
+    border: 2px solid black;
+    color: black;
+    
+
+  }
+  
+  .kontakt.icon-box .icon  {
+    color: #fff;
+  }
+  
+  .kontakt .icon-box .title {
+    margin-left: 85px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  
+  
+  
+  @-webkit-keyframes pulsate-btn {
+    0% {
+      transform: scale(0.6, 0.6);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1, 1);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes pulsate-btn {
+    0% {
+      transform: scale(0.6, 0.6);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1, 1);
+      opacity: 0;
+    }
+  }
+
+  .bild-contact .info {
+    width:max-content;
+    background:#cc1c4a;
+    padding: 30px 70px 35px 30px;
+    margin-left: 3rem;
+  
+       
+  }
+  
+  .bild-contact .info i {
+    font-size: 20px;
+    color: #cc1c4a;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .bild-contact .info h6 {
+    padding: 0 0 0 60px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #fff;
+    text-align: left;
+  }
+
+  .bild-contact .info h5{
+    padding: 0 0 0 60px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: left;
+  }
+  
+  .bild-contact .info p {
+    padding: 0 0 20px 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+  }
+  
+  .bild-contact .info .email .contact .info .phone .info .address{
+    margin-top: 40px;
+  }
+  
+  .bild-contact .info .email:hover i, .bild-contact .info .address:hover i, .bild-contact .info .phone:hover i {
+    background: black;
+    color: #fff;
+  }
+
+  .map-contact .hitta {
+    width:max-content;
+    background:#cc1c4a;
+    padding: 30px 40px 10px 30px;
+    margin-left: 3rem;
+        
+  }
+
+  .map-contact .hitta h6 {
+    padding: 0 0 0 60px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #fff;
+    text-align: left;
+  }
+
+  .map-contact .hitta p {
+    padding: 0 0 20px 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+  }
+
+  .map-contact .hitta i {
+    font-size: 20px;
+    color: #cc1c4a;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .map-contact .hitta i:hover {
+    background: black;
+    color: #fff;
+  }
+  
+   
+  
+  
+  
+  
+ 
+  
+  
