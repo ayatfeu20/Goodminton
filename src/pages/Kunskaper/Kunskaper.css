@@ -1,0 +1,29 @@
+.kun h2{
+    color: #cc1c4a;
+    margin-top: 40px;
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+
+.kunskaper .background{
+    opacity: 75%;
+}
+
+.kun p{
+    color: black;
+   
+    text-align: left;
+    
+}
+
+.background h2{
+  color:#fff;
+  margin-left: 2rem;
+  margin-top: 20px;
+  font-size: bolder;
+  font-style: italic;
+  
+}
+
