@@ -1,6 +1,8 @@
 import React from 'react';
+import Labels from '../../components/Labels/Labels';
 import background from './/puzzle-g1b4841205_1920.jpg';
 import  "./Projekt.css";
+
 
 function Projekt() {
   return (
@@ -18,6 +20,12 @@ function Projekt() {
         <p>Våra interna projekt drivs affärsmässigt och ger våra konsulter möjlighet att testa och tillämpa den senaste tekniken likväl som att laborera med affärsmodeller. </p>
       </div>
       </div>
+       
+      <h5 className='sub text-dark pt-4'>Detta är endast några exempel</h5>
+
+      <Labels/>
+
+
 
      </section>
   )
